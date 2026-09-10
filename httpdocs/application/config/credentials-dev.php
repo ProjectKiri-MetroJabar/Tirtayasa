@@ -17,4 +17,4 @@ $config['email-config'] = Array(
     'charset' => 'iso-8859-1'
 );
 
-$config['url-menjangan'] = 'http://newmenjangan.cloudapp.net:8000';
+$config['url-menjangan'] = 'http://localhost:8000';
