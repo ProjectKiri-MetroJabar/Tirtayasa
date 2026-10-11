@@ -36,7 +36,7 @@ colours['brown'] =  '#883300'
 colours['grey'] =   '#CCCCCC'
 colours['cyan'] = '#00aeef'
 
-inkscape_path = "/usr/local/bin/inkscape"
+inkscape_path = "C:/Program Files/Inkscape/bin/inkscape.exe"
 input_path = 'input/'
 base_out_path = 'out/'
 base_baloon_path = 'baloon/'
@@ -131,13 +131,13 @@ def generate_icons(track_type):
     os.remove(filename + '.svg')
 
 # TODO to automatically scan for csv files?
-generate_icons('bdo_angkot')
-generate_icons('cgk_commuterline')
-generate_icons('cgk_kopaja')
-generate_icons('cgk_mikrolet')
-generate_icons('cgk_transjakarta')
-generate_icons('daytrans')
-generate_icons('depok_angkot')
-generate_icons('mlg_mikrolet')
-generate_icons('sub_angkot')
-generate_icons('xtrans')
+generate_icons('bdo_angkotMJT')
+# generate_icons('cgk_commuterline')
+# generate_icons('cgk_kopaja')
+# generate_icons('cgk_mikrolet')
+# generate_icons('cgk_transjakarta')
+# generate_icons('daytrans')
+# generate_icons('depok_angkot')
+# generate_icons('mlg_mikrolet')
+# generate_icons('sub_angkot')
+# generate_icons('xtrans')
