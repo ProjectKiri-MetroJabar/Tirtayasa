@@ -3,9 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Migration_metrojabartrans extends CI_Migration {
 	public function up() {
-			$this->db->query("INSERT INTO `tracktypes` VALUES('mjtkoridor', 'Metro Jabar Trans', NULL, '15.30');");
-            $this->db->query("INSERT INTO `tracktypes` VALUES('mjtkoridortol', 'Metro Jabar Trans', NULL, '37.56');");
-            $this->db->query("INSERT INTO `tracktypes` VALUES('mjtkoridorfeeder', 'Metro Jabar Trans', NULL, '13.30');");
+			$this->db->query("INSERT INTO `tracktypes` VALUES('bdo_mjtkoridor', 'Metro Jabar Trans', NULL, '15.30');");
+            $this->db->query("INSERT INTO `tracktypes` VALUES('bdo_mjtkoridortol', 'Metro Jabar Trans', NULL, '37.56');");
+            $this->db->query("INSERT INTO `tracktypes` VALUES('bdo_mjtkoridorfeeder', 'Metro Jabar Trans', NULL, '13.30');");
             $this->db->query("INSERT INTO `tracks` VALUES(
                 'mjtkoridorFD1', 
                 'mjtkoridorfeeder', 
